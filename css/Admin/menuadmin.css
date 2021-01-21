@@ -1,0 +1,39 @@
+/* CSS Document */
+*{
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s;
+}
+#mainnav{
+  padding: 10px;
+  margin: 10px;
+  float: right;
+  padding-right: 250px;
+}
+#mainnav ul{
+  background: #eaa5c1;
+  list-style: none;
+  padding: 0px;
+  width: 200px;
+  text-align: left;
+}
+#mainnav ul li{
+  position: relative;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  border:1px solid #000000;
+  background:#eaa5c1;
+  text-align: center;
+  
+}
+
+#mainnav ul li a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  padding: 0 16px;
+  display: block;
+}
+#mainnav li:hover{
+  background: #FFFFFF;

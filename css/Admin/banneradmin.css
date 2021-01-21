@@ -1,0 +1,24 @@
+/* CSS Document */
+.submit {
+	float: right;
+	padding-top: 20px;
+}
+
+.submit input[type=submit]{
+	background-color: #FF99FF;
+ 	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border:1px solid #FF99CC;
+	padding-right: 60px;
+	width: 10%;
+}
+
+input[type=button]{
+	background-color: #FF99FF;
+ 	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border:1px solid #FF99CC;
+	width: auto;
+}

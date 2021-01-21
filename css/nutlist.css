@@ -1,0 +1,11 @@
+/* CSS Document */
+
+a{
+  background-color: #FF99FF;
+  color: #000000;
+  margin: 8px 0;
+  border: 1px solid #FF66CC;
+  cursor: pointer;
+  width: 100%;
+  text-align:center;
+}

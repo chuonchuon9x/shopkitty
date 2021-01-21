@@ -1,0 +1,12 @@
+<?php
+session_start();
+if(isset($_GET["MaPK"]))
+{
+	if(isset($_SESSION["gioHang"]))
+	{
+		$MaPK=$_GET["MaPK"];
+		unset($_SESSION["gioHang"][$MaPK]);	
+	}	
+}
+header("Location:xemGioHang.php");
+?>

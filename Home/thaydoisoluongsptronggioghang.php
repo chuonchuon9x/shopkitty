@@ -1,0 +1,22 @@
+<?php 
+session_start();
+$MaPK = $_GET['MaPK'];
+if($_GET['kieu']=="tru"){
+	if($_SESSION['gioHang'][$MaPK]['Soluong']==1){
+		unset($_SESSION['gio_hang'][$MaPK]);
+		header('location:xem_gio_hang.php');
+	}
+	else{
+		$_SESSION['gioHang'][MaPK]['Soluong']--;
+		header('location:xem_gio_hang.php');
+	}
+}
+else{
+	if($_SESSION['gioHang'][$MaPK]['Soluong']==10){
+		header('location:xem_gio_hang.php?error');
+	}
+	else{
+		$_SESSION['gioHang'][$MaPK]['Soluong']++;
+		header('location:xem_gio_hang.php');
+	}
+}

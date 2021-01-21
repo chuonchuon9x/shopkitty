@@ -1,0 +1,12 @@
+/* CSS FILE */
+
+body{background: url(../images/hello-kitty-pink.jpg) center top no-repeat;
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:11px;
+	}
+table{background:#eaa5c1; 
+	  color:#000000; 
+	  border: #000000;
+	  width: 40%;
+	  float: right;
+	  }
